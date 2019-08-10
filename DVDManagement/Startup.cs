@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using DVDManagement.Data;
 using DVDManagement.Data.context;
 using DVDManagement.Data.InterfaceRepo;
 using DVDManagement.Data.Repo;
@@ -76,8 +77,9 @@ namespace DVDManagement
                     name: "default",
                     template: "{controller=Home}/{action=Index}/{id?}");
             });
+            MockDb.Seed(app);
         }
-
         
+
     }
 }
