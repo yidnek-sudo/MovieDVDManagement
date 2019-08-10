@@ -23,3 +23,12 @@ C:\Users\user\source\repos\DVDManagement\DVDManagement\obj\Debug\netcoreapp2.1\R
 C:\Users\user\source\repos\DVDManagement\DVDManagement\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
 C:\Users\user\source\repos\DVDManagement\DVDManagement\obj\Debug\netcoreapp2.1\DVDManagement.RazorTargetAssemblyInfo.cache
 C:\Users\user\source\repos\DVDManagement\DVDManagement\obj\Debug\netcoreapp2.1\DVDManagement.RazorTargetAssemblyInfo.cs
+C:\Users\user\source\repos\DVDManagement\DVDManagement\bin\Debug\netcoreapp2.1\DVDManagement.pdb
+C:\Users\user\source\repos\DVDManagement\DVDManagement\bin\Debug\netcoreapp2.1\DVDManagement.Views.dll
+C:\Users\user\source\repos\DVDManagement\DVDManagement\bin\Debug\netcoreapp2.1\DVDManagement.Views.pdb
+C:\Users\user\source\repos\DVDManagement\DVDManagement\obj\Debug\netcoreapp2.1\Razor\Views\Client\Empty.g.cshtml.cs
+C:\Users\user\source\repos\DVDManagement\DVDManagement\obj\Debug\netcoreapp2.1\Razor\Views\Client\List.g.cshtml.cs
+C:\Users\user\source\repos\DVDManagement\DVDManagement\obj\Debug\netcoreapp2.1\DVDManagement.Views.pdb
+C:\Users\user\source\repos\DVDManagement\DVDManagement\obj\Debug\netcoreapp2.1\DVDManagement.dll
+C:\Users\user\source\repos\DVDManagement\DVDManagement\obj\Debug\netcoreapp2.1\DVDManagement.pdb
+C:\Users\user\source\repos\DVDManagement\DVDManagement\obj\Debug\netcoreapp2.1\DVDManagement.csproj.CopyComplete

@@ -1,5 +1,6 @@
 ﻿using DVDManagement.Data.InterfaceRepo;
 using DVDManagement.Data.model;
+using DVDManagement.ViewModel;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;

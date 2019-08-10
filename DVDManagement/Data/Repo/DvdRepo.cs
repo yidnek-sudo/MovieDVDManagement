@@ -26,7 +26,7 @@ namespace DVDManagement.Data.Repo
         {
             return _context.Dvds
                 .Include(a => a.Author)
-                .Include(a => a.Customer)
+                .Include(a => a.Client)
                 .Where(predicate);
         } 
         public IEnumerable<Dvd> GetAllWithAuthor()

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DVDManagement.ViewModel
 {
-    public class CustomerViewModel
+    public class CientViewModel
     {
         public Client Client { get; set; }
         public int DvdCount { get; set; }

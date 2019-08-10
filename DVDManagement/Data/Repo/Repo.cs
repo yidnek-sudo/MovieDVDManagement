@@ -1,4 +1,5 @@
 ﻿using DVDManagement.Data.context;
+using DVDManagement.Data.InterfaceRepo;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
