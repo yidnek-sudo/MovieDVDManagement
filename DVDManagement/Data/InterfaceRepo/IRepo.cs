@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace DVDManagement.Data.InterfaceRepo
 {
-    interface IRepo<T> where T : class
+    public interface IRepo<T> where T : class
     {
         IEnumerable<T> GetAll();
 

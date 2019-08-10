@@ -6,7 +6,7 @@ using System.Collections.Generic;
 
 namespace DVDManagement.Data.InterfaceRepo
 {
-    interface IClientRepo : IRepo<Client>
+    public interface IClientRepo : IRepo<Client>
     {
     }
 }

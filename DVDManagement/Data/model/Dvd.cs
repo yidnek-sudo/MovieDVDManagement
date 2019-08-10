@@ -16,7 +16,7 @@ namespace DVDManagement.Data.model
         public virtual Author Author { get; set; }
         public int AuthorId { get; set; }
 
-        public virtual Client Customer { get; set; }
-        public int CustomerId { get; set; }
+        public virtual Client Client { get; set; }
+        public int ClientId { get; set; }
     }
 }

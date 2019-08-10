@@ -22,14 +22,13 @@ namespace DVDManagement.Data.Repo
                 .Where(predicate);
         }
 
-        public IEnumerable<Dvd> FindWithAuthorAndBorrower(Func<Dvd, bool> predicate)
+        public IEnumerable<Dvd> FindWithAuthorAndClient(Func<Dvd, bool> predicate)
         {
             return _context.Dvds
                 .Include(a => a.Author)
                 .Include(a => a.Customer)
                 .Where(predicate);
-        }
-
+        } 
         public IEnumerable<Dvd> GetAllWithAuthor()
         {
             return _context.Dvds.Include(a => a.Author);

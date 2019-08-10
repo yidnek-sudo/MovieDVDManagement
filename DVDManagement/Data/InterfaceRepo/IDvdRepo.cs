@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace DVDManagement.Data.InterfaceRepo
 {
-    interface IDvdRepo : IRepo<Dvd>
+    public interface IDvdRepo : IRepo<Dvd>
     {
         IEnumerable<Dvd> GetAllWithAuthor();
         IEnumerable<Dvd> FindWithAuthor(Func<Dvd, bool> predicate);
-        IEnumerable<Dvd> FindWithAuthorAndBorrower(Func<Dvd, bool> predicate);
+        IEnumerable<Dvd> FindWithAuthorAndClient(Func<Dvd, bool> predicate);
     }
 }
