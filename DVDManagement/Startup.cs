@@ -13,7 +13,7 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.DependencyInjection; 
 
 namespace DVDManagement
 {
@@ -47,7 +47,7 @@ namespace DVDManagement
 
             services.AddTransient<IClientRepo, ClientRepo>();
 
-            services.AddTransient<IAuthorRepo, AuthorRepo>();
+            services.AddTransient<IActorRepo, ActorRepo>();
 
             services.AddTransient<IDvdRepo, DvdRepo>();
 

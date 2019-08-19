@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace DVDManagement.Data.InterfaceRepo
 {
-    interface IAuthorRepo : IRepo<Author>
+   public interface IActorRepo : IRepo<Actor>
     {
-        IEnumerable<Author> GetAllWithBooks();
-        Author GetWithBooks(int id);
+        IEnumerable<Actor> GetAllWithDvds();
+        Actor GetWithDvds(int id);
     }
 }

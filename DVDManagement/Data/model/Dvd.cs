@@ -13,8 +13,8 @@ namespace DVDManagement.Data.model
         [Required, MinLength(3), MaxLength(50)]
         public string Title { get; set; }
 
-        public virtual Author Author { get; set; }
-        public int AuthorId { get; set; }
+        public virtual Actor Actor{ get; set; }
+        public int ActorId { get; set; }
 
         public virtual Client Client { get; set; }
         public int ClientId { get; set; }

@@ -15,23 +15,23 @@ namespace DVDManagement.Data.Repo
         {
         }
 
-        public IEnumerable<Dvd> FindWithAuthor(Func<Dvd, bool> predicate)
+        public IEnumerable<Dvd> FindWithActor(Func<Dvd, bool> predicate)
         {
             return _context.Dvds
-                .Include(a => a.Author)
+                .Include(a => a.Actor)
                 .Where(predicate);
         }
 
-        public IEnumerable<Dvd> FindWithAuthorAndClient(Func<Dvd, bool> predicate)
+        public IEnumerable<Dvd> FindWithActorAndClient(Func<Dvd, bool> predicate)
         {
             return _context.Dvds
-                .Include(a => a.Author)
+                .Include(a => a.Actor)
                 .Include(a => a.Client)
                 .Where(predicate);
         } 
-        public IEnumerable<Dvd> GetAllWithAuthor()
+        public IEnumerable<Dvd> GetAllWithActor()
         {
-            return _context.Dvds.Include(a => a.Author);
+            return _context.Dvds.Include(a => a.Actor);
         }
     }
 }

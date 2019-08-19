@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace DVDManagement.Data.model
 {
-    public class Author
+    public class Actor
     {
 
-        public int AuthorId { get; set; }
+        public int ActorId { get; set; }
 
         [Required, MinLength(3), MaxLength(50)]
         public string Name { get; set; }

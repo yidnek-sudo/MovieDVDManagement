@@ -8,8 +8,8 @@ namespace DVDManagement.Data.InterfaceRepo
 {
     public interface IDvdRepo : IRepo<Dvd>
     {
-        IEnumerable<Dvd> GetAllWithAuthor();
-        IEnumerable<Dvd> FindWithAuthor(Func<Dvd, bool> predicate);
-        IEnumerable<Dvd> FindWithAuthorAndClient(Func<Dvd, bool> predicate);
+        IEnumerable<Dvd> GetAllWithActor();
+        IEnumerable<Dvd> FindWithActor(Func<Dvd, bool> predicate);
+        IEnumerable<Dvd> FindWithActorAndClient(Func<Dvd, bool> predicate);
     }
 }

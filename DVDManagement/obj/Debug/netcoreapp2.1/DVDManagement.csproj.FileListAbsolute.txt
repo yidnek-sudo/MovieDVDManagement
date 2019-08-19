@@ -32,3 +32,10 @@ C:\Users\user\source\repos\DVDManagement\DVDManagement\obj\Debug\netcoreapp2.1\D
 C:\Users\user\source\repos\DVDManagement\DVDManagement\obj\Debug\netcoreapp2.1\DVDManagement.dll
 C:\Users\user\source\repos\DVDManagement\DVDManagement\obj\Debug\netcoreapp2.1\DVDManagement.pdb
 C:\Users\user\source\repos\DVDManagement\DVDManagement\obj\Debug\netcoreapp2.1\DVDManagement.csproj.CopyComplete
+C:\Users\user\source\repos\DVDManagement\DVDManagement\obj\Debug\netcoreapp2.1\Razor\Views\Client\Create.g.cshtml.cs
+C:\Users\user\source\repos\DVDManagement\DVDManagement\obj\Debug\netcoreapp2.1\Razor\Views\Client\Update.g.cshtml.cs
+C:\Users\user\source\repos\DVDManagement\DVDManagement\obj\Debug\netcoreapp2.1\Razor\Views\Actor\Create.g.cshtml.cs
+C:\Users\user\source\repos\DVDManagement\DVDManagement\obj\Debug\netcoreapp2.1\Razor\Views\Actor\Empty.g.cshtml.cs
+C:\Users\user\source\repos\DVDManagement\DVDManagement\obj\Debug\netcoreapp2.1\Razor\Views\Actor\List.g.cshtml.cs
+C:\Users\user\source\repos\DVDManagement\DVDManagement\obj\Debug\netcoreapp2.1\Razor\Views\Actor\Update.g.cshtml.cs
+C:\Users\user\source\repos\DVDManagement\DVDManagement\obj\Debug\netcoreapp2.1\Razor\Views\Shared\ActorPartial.g.cshtml.cs

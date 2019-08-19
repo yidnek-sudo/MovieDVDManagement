@@ -1,0 +1,11 @@
+﻿@using DVDManagement.Data.model
+@model IEnumerable<Actor>
+
+<a class="btn btn-success mt-5" style="margin: 10px" asp-controller="Actor" asp-action="Create">Create New Movie By Actor Name</a>
+
+<div class="row">
+    @foreach (var actor in Model)
+    {
+        @Html.Partial("ActorPartial", actor)
+    }
+</div>
